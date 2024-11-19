@@ -1,0 +1,6 @@
+To solve the database error The-used-table-type-doesn-t-support-FULLTEXT-indexes
+
+1. Open the .sql with Notepad or Notepad++
+2. Replace ENGINE=InnoDb with ENGINE=MyISAM 
+3. Save the open sql file
+4. Import the sql file again
